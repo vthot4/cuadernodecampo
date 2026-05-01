@@ -39,8 +39,8 @@ El catálogo está organizado en las siguientes categorías, cada una con su car
 ├── mamiferos/
 ├── reptiles/
 ├── peces/
-├── moluscos/
-├── invertebrados-marinos/
+├── moluscos/              # Fichas de moluscos (ej: cornu-aspersum.html)
+├── invertebrados-marinos/ # Fichas de invertebrados marinos (ej: aplysia-depilans.html)
 ├── bacterias/
 ├── protozoos/
 ├── microalgas/
