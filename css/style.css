@@ -101,9 +101,9 @@ img {
 
 .habitats__grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 12px;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -433,6 +433,18 @@ img {
     text-align: center;
     padding: 6px;
     background: var(--bg-secondary);
+}
+
+/* === HABITAT CARD LINKS === */
+a.habitat-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s;
+}
+
+a.habitat-card:hover {
+    border-color: var(--accent-gold);
 }
 
 /* === RESPONSIVE === */
