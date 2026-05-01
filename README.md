@@ -15,6 +15,9 @@ El catálogo está organizado en las siguientes categorías, cada una con su car
 - Insectos
 - Mamíferos
 - Reptiles
+- Peces
+- Moluscos (caracoles, bivalvos, cefalópodos)
+- Invertebrados marinos (crustáceos, equinodermos, cnidarios...)
 - Bacterias
 - Protozoos
 - Microalgas
@@ -31,10 +34,13 @@ El catálogo está organizado en las siguientes categorías, cada una con su car
 ├── img/                    # Imágenes compartidas
 ├── habitats/               # Páginas de hábitats explorados
 ├── plantas/                # Fichas de plantas (ej: rosa-canina.html)
-├── aves/
-├── insectos/
+├── aves/                   # Fichas de aves (ej: passer-domesticus.html)
+├── insectos/               # Fichas de insectos (ej: lasius-niger.html)
 ├── mamiferos/
 ├── reptiles/
+├── peces/
+├── moluscos/
+├── invertebrados-marinos/
 ├── bacterias/
 ├── protozoos/
 ├── microalgas/
@@ -52,7 +58,7 @@ El catálogo está organizado en las siguientes categorías, cada una con su car
 2. Renombrar el archivo con el nombre científico en minúsculas y separado por guiones (ej: `rosa-canina.html`, `parus-major.html`)
 3. Rellenar los datos de la ficha: taxonomía, morfología, ecología, notas de campo y galería
 4. Añadir el enlace a la nueva ficha en la sección correspondiente de `index.html`
-5. Si hay fotos, guardarlas en `img/` o en la carpeta de la categoría
+5. Si hay fotos, guardarlas en la carpeta de la categoría: `categoria/img/nombre-especie/`
 
 ## Cómo añadir un hábitat
 
