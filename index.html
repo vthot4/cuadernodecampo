@@ -16,31 +16,98 @@
         <div class="site-header__tagline">Catálogo personal de especies</div>
     </header>
 
+    <!-- Global Stats -->
+    <div class="global-stats">
+        <div class="global-stats__item">
+            <span class="global-stats__number">15</span>
+            <span class="global-stats__label">Especies</span>
+        </div>
+        <div class="global-stats__item">
+            <span class="global-stats__number">5</span>
+            <span class="global-stats__label">Hábitats</span>
+        </div>
+        <div class="global-stats__item">
+            <span class="global-stats__number">7</span>
+            <span class="global-stats__label">Familias</span>
+        </div>
+        <div class="global-stats__item">
+            <span class="global-stats__number">5</span>
+            <span class="global-stats__label">Órdenes</span>
+        </div>
+    </div>
+
+    <!-- Últimas Incorporaciones -->
+    <section class="latest-additions">
+        <div class="section-label">&#9753; Últimas Incorporaciones &#9753;</div>
+        <div class="latest-additions__grid">
+            <a href="insectos/coccinella-septempunctata.html" class="latest-card">
+                <div class="latest-card__img">
+                    <img src="insectos/img/coccinella-septempunctata/principal.jpg" alt="Coccinella septempunctata">
+                </div>
+                <div class="latest-card__body">
+                    <div class="latest-card__name">Coccinella septempunctata</div>
+                    <div class="latest-card__common">Mariquita</div>
+                    <div class="latest-card__family">Coccinellidae</div>
+                </div>
+            </a>
+            <a href="insectos/graphosoma-italicum.html" class="latest-card">
+                <div class="latest-card__img">
+                    <img src="insectos/img/graphosoma-italicum/principal.jpg" alt="Graphosoma italicum">
+                </div>
+                <div class="latest-card__body">
+                    <div class="latest-card__name">Graphosoma italicum</div>
+                    <div class="latest-card__common">Chinche rayada</div>
+                    <div class="latest-card__family">Pentatomidae</div>
+                </div>
+            </a>
+            <a href="insectos/clonopsis-gallica.html" class="latest-card">
+                <div class="latest-card__img">
+                    <img src="insectos/img/clonopsis-gallica/principal.jpg" alt="Clonopsis gallica">
+                </div>
+                <div class="latest-card__body">
+                    <div class="latest-card__name">Clonopsis gallica</div>
+                    <div class="latest-card__common">Insecto palo</div>
+                    <div class="latest-card__family">Bacillidae</div>
+                </div>
+            </a>
+            <a href="insectos/apis-mellifera.html" class="latest-card">
+                <div class="latest-card__img">
+                    <img src="insectos/img/apis-mellifera/principal.jpg" alt="Apis mellifera">
+                </div>
+                <div class="latest-card__body">
+                    <div class="latest-card__name">Apis mellifera</div>
+                    <div class="latest-card__common">Abeja común</div>
+                    <div class="latest-card__family">Apidae</div>
+                </div>
+            </a>
+        </div>
+    </section>
+
     <!-- Hábitats Explorados -->
     <section class="habitats">
         <div class="section-label">&#9753; Hábitats Explorados &#9753;</div>
         <div class="habitats__grid">
-            <a href="habitats/bosque.html" class="habitat-card">
+            <a href="habitats/bosque.html" class="habitat-card habitat-card--bosque">
                 <div class="habitat-card__icon">&#127794;</div>
                 <div class="habitat-card__name">Bosque</div>
                 <div class="habitat-card__desc">Caducifolio y mixto</div>
             </a>
-            <a href="habitats/pradera.html" class="habitat-card">
+            <a href="habitats/pradera.html" class="habitat-card habitat-card--pradera">
                 <div class="habitat-card__icon">&#127966;</div>
                 <div class="habitat-card__name">Pradera</div>
                 <div class="habitat-card__desc">Prados de montaña</div>
             </a>
-            <a href="habitats/humedal.html" class="habitat-card">
+            <a href="habitats/humedal.html" class="habitat-card habitat-card--humedal">
                 <div class="habitat-card__icon">&#128167;</div>
                 <div class="habitat-card__name">Humedal</div>
                 <div class="habitat-card__desc">Ríos y lagunas</div>
             </a>
-            <a href="habitats/costa.html" class="habitat-card">
+            <a href="habitats/costa.html" class="habitat-card habitat-card--costa">
                 <div class="habitat-card__icon">&#127754;</div>
                 <div class="habitat-card__name">Costa</div>
                 <div class="habitat-card__desc">Litoral atlántico</div>
             </a>
-            <a href="habitats/jardin.html" class="habitat-card">
+            <a href="habitats/jardin.html" class="habitat-card habitat-card--jardin">
                 <div class="habitat-card__icon">&#127807;</div>
                 <div class="habitat-card__name">Jardín</div>
                 <div class="habitat-card__desc">Costero atlántico</div>
@@ -61,22 +128,64 @@
             </div>
             <div class="species-list">
                 <div class="species-list__item">
-                    <a href="plantas/rosa-canina.html"><span class="species-list__name">Rosa canina</span> (Escaramujo)<span class="species-list__family">Rosaceae</span></a>
+                    <a href="plantas/rosa-canina.html">
+                        <img class="species-list__thumb" src="plantas/img/rosa-canina/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Rosa canina</span>
+                            <span class="species-list__common">Escaramujo</span>
+                        </span>
+                        <span class="species-list__family">Rosaceae</span>
+                    </a>
                 </div>
                 <div class="species-list__item">
-                    <a href="plantas/leptospermum-scoparium.html"><span class="species-list__name">Leptospermum scoparium</span> (Manuka)<span class="species-list__family">Myrtaceae</span></a>
+                    <a href="plantas/leptospermum-scoparium.html">
+                        <img class="species-list__thumb" src="plantas/img/leptospermum-scoparium/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Leptospermum scoparium</span>
+                            <span class="species-list__common">Manuka</span>
+                        </span>
+                        <span class="species-list__family">Myrtaceae</span>
+                    </a>
                 </div>
                 <div class="species-list__item">
-                    <a href="plantas/cupressus-sempervirens.html"><span class="species-list__name">Cupressus sempervirens</span> (Ciprés)<span class="species-list__family">Cupressaceae</span></a>
+                    <a href="plantas/cupressus-sempervirens.html">
+                        <img class="species-list__thumb" src="plantas/img/cupressus-sempervirens/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Cupressus sempervirens</span>
+                            <span class="species-list__common">Ciprés</span>
+                        </span>
+                        <span class="species-list__family">Cupressaceae</span>
+                    </a>
                 </div>
                 <div class="species-list__item">
-                    <a href="plantas/salvia-rosmarinus.html"><span class="species-list__name">Salvia rosmarinus</span> (Romero)<span class="species-list__family">Lamiaceae</span></a>
+                    <a href="plantas/salvia-rosmarinus.html">
+                        <img class="species-list__thumb" src="plantas/img/salvia-rosmarinus/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Salvia rosmarinus</span>
+                            <span class="species-list__common">Romero</span>
+                        </span>
+                        <span class="species-list__family">Lamiaceae</span>
+                    </a>
                 </div>
                 <div class="species-list__item">
-                    <a href="plantas/petroselinum-crispum.html"><span class="species-list__name">Petroselinum crispum</span> (Perejil)<span class="species-list__family">Apiaceae</span></a>
+                    <a href="plantas/petroselinum-crispum.html">
+                        <img class="species-list__thumb" src="plantas/img/petroselinum-crispum/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Petroselinum crispum</span>
+                            <span class="species-list__common">Perejil</span>
+                        </span>
+                        <span class="species-list__family">Apiaceae</span>
+                    </a>
                 </div>
                 <div class="species-list__item">
-                    <a href="plantas/citrus-limon.html"><span class="species-list__name">Citrus × limon</span> (Limonero)<span class="species-list__family">Rutaceae</span></a>
+                    <a href="plantas/citrus-limon.html">
+                        <img class="species-list__thumb" src="plantas/img/citrus-limon/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Citrus × limon</span>
+                            <span class="species-list__common">Limonero</span>
+                        </span>
+                        <span class="species-list__family">Rutaceae</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -90,7 +199,14 @@
             </div>
             <div class="species-list">
                 <div class="species-list__item">
-                    <a href="aves/passer-domesticus.html"><span class="species-list__name">Passer domesticus</span> (Gorrión común)<span class="species-list__family">Passeridae</span></a>
+                    <a href="aves/passer-domesticus.html">
+                        <img class="species-list__thumb" src="aves/img/passer-domesticus/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Passer domesticus</span>
+                            <span class="species-list__common">Gorrión común</span>
+                        </span>
+                        <span class="species-list__family">Passeridae</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -100,14 +216,58 @@
             <div class="type-section__header">
                 <span class="type-section__icon">&#129419;</span>
                 <span class="type-section__name">Insectos</span>
-                <span class="type-section__count">2 especies</span>
+                <span class="type-section__count">5 especies</span>
             </div>
             <div class="species-list">
                 <div class="species-list__item">
-                    <a href="insectos/apis-mellifera.html"><span class="species-list__name">Apis mellifera</span> (Abeja común)<span class="species-list__family">Apidae</span></a>
+                    <a href="insectos/apis-mellifera.html">
+                        <img class="species-list__thumb" src="insectos/img/apis-mellifera/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Apis mellifera</span>
+                            <span class="species-list__common">Abeja común</span>
+                        </span>
+                        <span class="species-list__family">Apidae</span>
+                    </a>
                 </div>
                 <div class="species-list__item">
-                    <a href="insectos/lasius-niger.html"><span class="species-list__name">Lasius niger</span> (Hormiga negra de jardín)<span class="species-list__family">Formicidae</span></a>
+                    <a href="insectos/clonopsis-gallica.html">
+                        <img class="species-list__thumb" src="insectos/img/clonopsis-gallica/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Clonopsis gallica</span>
+                            <span class="species-list__common">Insecto palo</span>
+                        </span>
+                        <span class="species-list__family">Bacillidae</span>
+                    </a>
+                </div>
+                <div class="species-list__item">
+                    <a href="insectos/coccinella-septempunctata.html">
+                        <img class="species-list__thumb" src="insectos/img/coccinella-septempunctata/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Coccinella septempunctata</span>
+                            <span class="species-list__common">Mariquita</span>
+                        </span>
+                        <span class="species-list__family">Coccinellidae</span>
+                    </a>
+                </div>
+                <div class="species-list__item">
+                    <a href="insectos/graphosoma-italicum.html">
+                        <img class="species-list__thumb" src="insectos/img/graphosoma-italicum/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Graphosoma italicum</span>
+                            <span class="species-list__common">Chinche rayada</span>
+                        </span>
+                        <span class="species-list__family">Pentatomidae</span>
+                    </a>
+                </div>
+                <div class="species-list__item">
+                    <a href="insectos/lasius-niger.html">
+                        <img class="species-list__thumb" src="insectos/img/lasius-niger/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Lasius niger</span>
+                            <span class="species-list__common">Hormiga negra de jardín</span>
+                        </span>
+                        <span class="species-list__family">Formicidae</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -148,10 +308,24 @@
             </div>
             <div class="species-list">
                 <div class="species-list__item">
-                    <a href="moluscos/cornu-aspersum.html"><span class="species-list__name">Cornu aspersum</span> (Caracol común)<span class="species-list__family">Helicidae</span></a>
+                    <a href="moluscos/cornu-aspersum.html">
+                        <img class="species-list__thumb" src="moluscos/img/cornu-aspersum/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Cornu aspersum</span>
+                            <span class="species-list__common">Caracol común</span>
+                        </span>
+                        <span class="species-list__family">Helicidae</span>
+                    </a>
                 </div>
                 <div class="species-list__item">
-                    <a href="moluscos/arion-vulgaris.html"><span class="species-list__name">Arion vulgaris</span> (Babosa común)<span class="species-list__family">Arionidae</span></a>
+                    <a href="moluscos/arion-vulgaris.html">
+                        <img class="species-list__thumb" src="moluscos/img/arion-vulgaris/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Arion vulgaris</span>
+                            <span class="species-list__common">Babosa común</span>
+                        </span>
+                        <span class="species-list__family">Arionidae</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -165,7 +339,14 @@
             </div>
             <div class="species-list">
                 <div class="species-list__item">
-                    <a href="invertebrados-marinos/aplysia-depilans.html"><span class="species-list__name">Aplysia depilans</span> (Liebre de mar)<span class="species-list__family">Aplysiidae</span></a>
+                    <a href="invertebrados-marinos/aplysia-depilans.html">
+                        <img class="species-list__thumb" src="invertebrados-marinos/img/aplysia-depilans/principal.jpg" alt="">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Aplysia depilans</span>
+                            <span class="species-list__common">Liebre de mar</span>
+                        </span>
+                        <span class="species-list__family">Aplysiidae</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -220,7 +401,12 @@
             </div>
             <div class="species-list">
                 <div class="species-list__item">
-                    <a href="teoria/botanica/partes-de-una-planta.html"><span class="species-list__name">Partes de una planta</span><span class="species-list__family">Morfología vegetal básica</span></a>
+                    <a href="teoria/botanica/partes-de-una-planta.html">
+                        <span class="species-list__info">
+                            <span class="species-list__name">Partes de una planta</span>
+                            <span class="species-list__common">Morfología vegetal básica</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
