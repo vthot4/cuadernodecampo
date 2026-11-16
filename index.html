@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codex Naturae — Catálogo de Especies</title>
+    <meta name="description" content="Codex Naturae: cuaderno de campo con fichas de plantas, aves, insectos, moluscos, invertebrados marinos y más especies observadas en la naturaleza.">
+    <meta name="theme-color" content="#fdfaf3">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Codex Naturae — Cuaderno de campo">
+    <meta property="og:description" content="Catálogo personal de especies: observar, identificar y anotar.">
+    <meta property="og:url" content="https://vthot4.github.io/cuadernodecampo/">
+    <meta property="og:image" content="https://vthot4.github.io/cuadernodecampo/aves/img/gyps-fulvus/principal.jpg">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%BF%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -35,6 +43,18 @@
             <span class="global-stats__label">Órdenes</span>
         </div>
     </div>
+
+    <!-- Navegación por categorías -->
+    <nav class="quick-nav" aria-label="Categorías">
+        <a href="#plantas">&#127793; Plantas</a>
+        <a href="#aves">&#128038; Aves</a>
+        <a href="#insectos">&#129419; Insectos</a>
+        <a href="#peces">&#128031; Peces</a>
+        <a href="#moluscos">&#129424; Moluscos</a>
+        <a href="#invertebrados-marinos">&#129704; Invertebrados marinos</a>
+        <a href="#otros">&#128269; Otros</a>
+        <a href="#teoria">&#128214; Teoría</a>
+    </nav>
 
     <!-- Últimas Incorporaciones -->
     <section class="latest-additions">
@@ -120,7 +140,7 @@
         <div class="section-label">&#9753; Catálogo de Especies &#9753;</div>
 
         <!-- Plantas -->
-        <div class="type-section">
+        <div class="type-section" id="plantas">
             <div class="type-section__header">
                 <span class="type-section__icon">&#127793;</span>
                 <span class="type-section__name">Plantas</span>
@@ -191,7 +211,7 @@
         </div>
 
         <!-- Aves -->
-        <div class="type-section">
+        <div class="type-section" id="aves">
             <div class="type-section__header">
                 <span class="type-section__icon">&#128038;</span>
                 <span class="type-section__name">Aves</span>
@@ -232,7 +252,7 @@
         </div>
 
         <!-- Insectos -->
-        <div class="type-section">
+        <div class="type-section" id="insectos">
             <div class="type-section__header">
                 <span class="type-section__icon">&#129419;</span>
                 <span class="type-section__name">Insectos</span>
@@ -293,7 +313,7 @@
         </div>
 
         <!-- Mamíferos -->
-        <div class="type-section">
+        <div class="type-section" id="mamiferos">
             <div class="type-section__header">
                 <span class="type-section__icon">&#128054;</span>
                 <span class="type-section__name">Mamíferos</span>
@@ -302,7 +322,7 @@
         </div>
 
         <!-- Reptiles -->
-        <div class="type-section">
+        <div class="type-section" id="reptiles">
             <div class="type-section__header">
                 <span class="type-section__icon">&#128013;</span>
                 <span class="type-section__name">Reptiles</span>
@@ -311,7 +331,7 @@
         </div>
 
         <!-- Peces -->
-        <div class="type-section">
+        <div class="type-section" id="peces">
             <div class="type-section__header">
                 <span class="type-section__icon">&#128031;</span>
                 <span class="type-section__name">Peces</span>
@@ -352,7 +372,7 @@
         </div>
 
         <!-- Moluscos -->
-        <div class="type-section">
+        <div class="type-section" id="moluscos">
             <div class="type-section__header">
                 <span class="type-section__icon">&#129424;</span>
                 <span class="type-section__name">Moluscos</span>
@@ -403,7 +423,7 @@
         </div>
 
         <!-- Invertebrados Marinos -->
-        <div class="type-section">
+        <div class="type-section" id="invertebrados-marinos">
             <div class="type-section__header">
                 <span class="type-section__icon">&#129704;</span>
                 <span class="type-section__name">Invertebrados Marinos</span>
@@ -494,7 +514,7 @@
         </div>
 
         <!-- Bacterias -->
-        <div class="type-section">
+        <div class="type-section" id="bacterias">
             <div class="type-section__header">
                 <span class="type-section__icon">&#129440;</span>
                 <span class="type-section__name">Bacterias</span>
@@ -503,7 +523,7 @@
         </div>
 
         <!-- Protozoos -->
-        <div class="type-section">
+        <div class="type-section" id="protozoos">
             <div class="type-section__header">
                 <span class="type-section__icon">&#128300;</span>
                 <span class="type-section__name">Protozoos</span>
@@ -512,7 +532,7 @@
         </div>
 
         <!-- Microalgas -->
-        <div class="type-section">
+        <div class="type-section" id="microalgas">
             <div class="type-section__header">
                 <span class="type-section__icon">&#129516;</span>
                 <span class="type-section__name">Microalgas</span>
@@ -521,7 +541,7 @@
         </div>
 
         <!-- Otros -->
-        <div class="type-section">
+        <div class="type-section" id="otros">
             <div class="type-section__header">
                 <span class="type-section__icon">&#128269;</span>
                 <span class="type-section__name">Otros</span>
@@ -635,7 +655,11 @@
 
     <!-- Footer -->
     <footer class="site-footer">
-        Cuaderno de campo · Última actualización: Mayo 2026
+        <div>Cuaderno de campo · Última actualización: Mayo 2026</div>
+        <div class="site-footer__links">
+            <a href="https://vthot4.github.io/cuadernodecampo/">vthot4.github.io/cuadernodecampo</a> ·
+            <a href="https://github.com/vthot4/cuadernodecampo">Código en GitHub</a>
+        </div>
     </footer>
 
 </body>
